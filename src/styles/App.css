@@ -1,0 +1,11 @@
+.column {
+    width: 33.3%;
+    background-color: #1e1b1b;
+    height: 100vh;
+  }
+  
+  .row:after {
+    content: "";
+    display: flex;
+    clear: both;
+  }
